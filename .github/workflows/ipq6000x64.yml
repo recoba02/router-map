@@ -2,7 +2,6 @@ on:
   push:
     branches: 
       - ipq6000x64
-
 jobs:
   build:
     runs-on: ubuntu-18.04
