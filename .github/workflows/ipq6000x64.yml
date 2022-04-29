@@ -1,7 +1,13 @@
+name: ipq6000x64
+
 on:
-  push:
-    branches: 
-      - ipq6000x64
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 
 jobs:
   build:
