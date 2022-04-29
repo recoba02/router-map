@@ -1,3 +1,5 @@
+name: ipq6000x64
+
 on:
   push:
     branches: 
